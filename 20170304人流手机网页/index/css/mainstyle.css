@@ -1,0 +1,196 @@
+@charset "utf-8";
+body,h1,h2,ul,li,p,a,img{margin: 0;padding: 0;}
+body{
+	font-family: "Microsoft Yahei";
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.section{
+	width: 640px;
+	margin: auto;
+	overflow: hidden;
+}
+.section>h1{
+	margin:10px 20px;
+	padding: 10px 0;
+	border: 2px solid #0071BD;
+	color: #0071BD;
+	text-align: center;
+}
+/*logo*/
+.logo{
+	height: 137px;
+}
+.logo img{
+	width: 100%;
+}
+/*nav*/
+.nav ul{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	height:40px;
+	background-color: #6A0F14;
+}
+.nav ul li{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	height: 40px;
+	width: 107px;
+	border-left:3px solid #8A2328;
+	border-right:3px solid #3C0407;
+	text-align:center;
+	line-height: 40px;
+	color:  #DBB866;
+}
+.nav ul li:last-child{
+	width: 105px;
+}
+/*banner*/
+.banner{
+	position: relative;
+	width: 640px;
+	height: 287px;
+	margin: auto;
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+}
+.banner .wrap{
+	position: relative;
+	left: 55%;
+}
+.banner h1{
+	padding: 30px 0 20px;
+	font-size: 24px;
+	color: #E62F5F;
+}
+.banner p{
+	font-size: 18px;
+	color: #09BAB4;
+}
+.banner .tel{
+	margin-top: 20px;
+}
+.banner .tel span{
+	font-size: 24px;
+}
+.commitment{
+	width: 600px;
+	height: 283px;
+	padding: 20px;
+	margin: auto;
+	background-image: url(../img/commitment.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*私人定制*/
+.private-custom{
+	width: 640px;
+	margin: auto;
+}
+.private-custom h1{
+	margin:10px 20px;
+	padding: 10px 0;
+	border: 2px solid #0071BD;
+	color: #0071BD;
+	text-align: center;
+}
+.private-custom ul{
+	padding:0 20px;
+}
+.private-custom li{
+	padding:15px 0;
+	border-bottom: 2px dotted #0071BD;
+}
+.private-custom li h2{
+	padding: 10px 0;
+	color: #F97B02;
+}
+/*pac康复标准*/
+
+.pac{
+	width: 640px;
+	margin: auto;
+}
+.pac h1{
+	margin:10px 20px;
+	padding: 10px 0;
+	border: 2px solid #0071BD;
+	color: #0071BD;
+	text-align: center;
+}
+.pac li {
+	width: 100%;
+}
+.pac ul li img{
+	display: block;
+	margin: auto;
+}
+.pac ul li p{
+	width: 50%;
+	height: 20px;
+	margin:10px auto;
+	padding: 10px 0;
+	color: #fff;
+	border-radius: 20px;
+	background-color: #54A73E;
+	text-align: center;
+}
+/*专家*/
+.expert ul{
+	padding: 0 20px;
+}
+.expert li{
+	padding: 10px 0 10px 50%;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.expert li:first-child{
+	background-image: url(../img/expert-1.jpg);
+}
+.expert li:last-child{
+	background-image: url(../img/expert-2.jpg);
+}
+.expert li p{
+	padding: 20px 15px 0 0;
+	font-size: 16px;
+}
+/*更多问题*/
+.more-question ul{
+	margin:20px;
+	padding-left: 10px;
+	border-left: 3px solid #8E0F82;
+}
+.more-question li{
+	height: 30px;
+	line-height: 30px;
+}
+.more-question a{
+	color: #000;
+}
+
+
+.foot{
+	padding: 10px 0;
+	background-color: #DBB866;
+}
+.foot p{
+	padding: 15px;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	color: #6A0F14;
+}
+.foot a{
+	color: #6A0F14;
+}
+
+
+
+
