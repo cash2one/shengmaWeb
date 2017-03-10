@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+ <meta charset="UTF-8">  
+ <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
+<script>   
+(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                }
+            };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script> 
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+<title>标题</title> 
+</head>
+<body>
+    <!--head start-->
+    <div class="header com-section">
+        <!--
+        <h1>开封新区圣玛医院<br/><span>KAIFENG XINQU SANTA MARIA HOSPITAL</span></h1>
+        <p>·秉承JCI国际医疗标准<span>·3H国际医疗服务</span></p>
+        -->
+    </div>
+    <!--nav start-->
+    <div class="nav">
+        <ul>
+            <li><a href="">首页</a></li>
+            <li><a href="">简介</a></li>
+            <li><a href="">新闻</a></li>
+            <li><a href="">科室</a></li>
+            <li><a href="">医生</a></li>
+            <li><a href="">路线</a></li>
+        </ul>
+    </div>
+    <!--banner-->
+    <div class="banner com-section">
+        
+    </div>
+    <!--必要性-->
+    <div class="necessity com-section">
+        <h1>做四维彩超的必要性</h1>
+       <table>
+           <tr>
+               <td><img src="img/necessity-1.jpg"></td>
+               <td><img src="img/necessity-2.jpg"></td>
+           </tr>
+           <tr>
+                <td>经早期诊断和治疗<br/>可以获得较好的质量</td>
+                <td>在出生后死亡<br/>或成为终生残疾</td>
+           </tr>
+       </table>
+       <p><span>据权威数据显示：</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我国每年有80-120万名出生缺陷儿，其中除20%-30%患儿经早期诊断和治疗可以获得较好的质量外，30%-40%患儿在出生后死亡，有约40%将成为终生残疾。这意味着每年将有40万家庭被卷入终生痛苦的漩涡。</p>
+    </div>
+    <!--优势-->
+    <div class="advantage com-section">
+        <h1>四维彩超&nbsp;&nbsp;六大优势</h1>
+        <table>
+            <tr>
+                <td class="td-bg1">胎儿遗传性疾病<br/>准确排查</td>
+                <td class="td-bg2">胎儿体内<br/>骨骼发育检查</td>
+            </tr>
+            <tr>
+                <td class="td-bg3">实时动态胎儿图像</td>
+                <td class="td-bg4">多方位角度检测</td>
+            </tr>
+            <tr>
+                <td class="td-bg5">健康无辐射<br/>人体无伤害</td>
+                <td class="td-bg6">拥有0岁写真相册<br/>及其影像</td>
+            </tr>
+        </table>
+    </div>
+    <!--排畸检查-->
+    <div class="check com-section">
+        <h1>四维彩超&nbsp;&nbsp;排畸检查</h1>
+        <div class="content">
+            <img src="img/check.jpg">
+            <p>
+                ★ 测量胎儿颅内透明层及大脑发育情况<br/>
+                ★ 判断胎儿先天性心脏病<br/>
+                ★ 真实呈现脐带、胎盘血流，提升产前检查的诊断质量和效率<br/>
+                ★ 胎儿面部畸形：如唇愕裂等；<br/>
+                ★ 神经系统 : 无脑儿、脑积水、小头畸形；<br/>
+                ★ 消化系统：脐部肠膨出、内脏外翻；<br/>
+                ★ 泌尿系统：肾积水、多囊肾及巨膀胱、尿道梗阻；<br/>
+                ★ 妇科疾病：对子宫畸形及宫腔病变、输卵管、卵巢、卵泡等进行全面评估，有助于肿瘤良恶性的鉴别诊断。
+            </p>
+        </div>       
+    </div>
+    <!--无危害-->
+    <div class="safty com-section">
+        <h1>四维检彩超对宝宝有危害吗？</h1>
+        <img src="img/safty.jpg">
+        <p>从超声原理上分析，超声是声波传导，不存在电离辐射和电磁辐射，这种声波对人体组织没有什么伤害。医学使用的B超是低强度的，低于94毫瓦/立方厘米，对胎儿是没有危害的，至今尚没有B超检查引起胎儿发育异常的报道。目前，在产科领域中使用的彩超检查对胎儿是安全的。</p>
+    </div>
+    <!--四维彩超的时间-->
+    <div class="time com-section">
+        <h1>四维彩超的最佳时间</h1>
+        <ul>
+            <li><strong>孕18周之前</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此时胎儿偏小，脂肪层发育不饱满，这段时间进行思维彩超检查成像效果不佳</li>
+            <li><strong>孕22-26周</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此时是做四维彩超的最佳时间，这个时期胎儿局部结构及运动状态比较清晰，成像效果也比较好，可及时发现严重的胎儿畸形，诊断胎儿结构异常的准确率可达到95%-987%</li>
+            <li><strong>孕28周之后</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;宫腔羊水减少，不利于四维彩超的面部成像。此时做四维彩超主要是为分娩做准备</li>
+        </ul>
+    </div>
+    <!--圣玛优势-->
+    <div class="advantage com-section">
+        <h1>为什么大家都选择开封圣玛？</h1>
+        <ul>
+            <li>
+                <img src="img/advantage-1.jpg">
+                <p><strong>引进美国GE-E8超声设备</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;美国GE-E8超声设备（高清四维彩超）作为目前世界上先进的彩色超声设备，如今在河南地区，真正拥有该仪器的医院并不多。 开封新区圣玛医院，在圣玛与GE医疗集团强强携手下，拥有GE集团最优质的四维设备，这些精良的医疗设备和丰富的临床诊断经验，为孕妈及早发现胎儿缺陷、异常妊娠提供了强有力的科学保障。</p>
+            </li>
+            <li>
+                <img src="img/advantage-2.jpg">
+                <p><strong>管家式细致服务，不排队产检更舒心</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;圣玛首创"享受"式候诊模式，网络可提前预约四维；入院全程专人专护服务；资深超声医生亲自操作；无需排队等候；并提供咖啡吧、休息室，水果、甜点，胎儿视像等升级服务,让孕妈咪乐享国际医疗快乐.</p>
+            </li>
+            <li>
+                <img src="img/advantage-3.jpg">
+                <p><strong>温馨舒适</strong><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;私密一对一私密诊密，设施齐备，装饰豪华温馨的欧式孕产环境，让开封女性在家门口就可以体验到国际医疗品质服务及温馨的人性化诊疗环境。</p>
+            </li>
+        </ul>
+    </div>
+    <!--预约-->
+    <div class="apply com-section">
+        <a href="">我要预约四维彩超</a>
+    </div>
+    <!--更多问题-->
+    <div class="more com-section">
+        <h1>孕妈咪关注的更多问题</h1>
+        <ul>
+            <li><a href="">1. 超声影像（高清四维彩超）注意事项？</a></li>
+            <li><a href="">2. 三维彩超和超声影像（高清四维彩超）的区别？</a></li>
+            <li><a href="">3. 开封超声影像（高清四维彩超）多少钱？</a></li>
+            <li><a href="">4. 超声影像（高清四维彩超）一般提前多久预约？</a></li>
+        </ul>
+    </div>
+    <!--页脚-->
+    <div class="foot">
+        <p>
+            免费咨询热线：0371-225 226 83<br/>来院路线：开封市西环路与向阳路交叉口<br/>（老橡胶厂对面）<br/>
+            <a href="">返回顶部</a>&nbsp;&nbsp;<a href="">在线咨询</a>
+        </p>
+    </div>
+</body>
+</html>
