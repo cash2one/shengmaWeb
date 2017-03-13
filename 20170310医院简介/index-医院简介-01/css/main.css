@@ -1,0 +1,202 @@
+
+body{
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+}
+.com-section{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	margin: auto;
+}
+.com-section>h1{
+	padding: 0.2rem;
+	font-size: 0.3rem;
+	text-align: center;
+	color: #fff;
+	background-color:#DAB866; 
+}
+.com-img{
+	display: block;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-width: 0 0.1rem 0.1rem;
+    border-style: solid;
+    border-color: transparent transparent #DAB866;
+    margin: auto;
+}
+/*私有样式*/
+.header{
+	height: 1.36rem;
+	background-image:url(../img/header-bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.nav ul{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	height: 0.5rem;
+	margin: auto;
+	background-color: #6A0F14;
+}
+.nav ul li{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-left:0.03rem solid #8A2328;
+	border-right:0.03rem solid #3C0407;
+	width: 1.0666rem;
+	height: 0.5rem;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	text-align:center;
+
+}
+.nav ul li:last-child{
+	width: 1.0667rem;
+}
+.nav a{
+	color:  #DBB866;
+}
+
+/*banner*/
+.banner{
+	position: relative;
+	width: 6.4rem;
+	height: 2.33rem;
+	background-image: url(../img/banner.jpg);
+	background-size: 100%;
+}
+
+/*医院介绍*/
+.yyjj img{
+	display: block;
+	width: 6.4rem;
+}
+.yyjj p{
+	margin: 0.2rem;
+	padding: 0.2rem;
+	text-indent: 2em;
+	color: #706F6F;
+	background-color: #EDEBEC;
+}
+.yyjj .img-1{
+	width: 4.57rem;
+	margin: auto;
+}
+/*圣玛院训*/
+.smyx ul{
+	padding: 0.2rem 1.2rem;
+}
+.smyx ul li{
+	margin: 0.2rem;
+	height: 0.6rem;
+	text-align: center;
+	line-height: 0.6rem;
+	background-color: #B2363A;
+	color: #fff;
+	border-radius: 50%;
+}
+/*服务理念*/
+.fwln .content{
+	height: 3.6rem;
+	background: url(../img/fwln.jpg) no-repeat;
+	background-size: 6.4rem 3.6rem;
+}
+.fwln .content p{
+	padding: 0.6rem 1.1rem 0;
+	text-indent: 2em;
+}
+/*医院愿景*/
+.yyyj .content{
+	position: relative;
+	width: 6.4rem;
+	height: 4rem;
+	background-image: url(../img/yyyj.jpg);
+	background-size: 6.4rem;
+}
+.yyyj .content p{
+	position: relative;
+	top: 0.7rem;
+	left: 2.4rem;
+	width: 3.7rem;
+	padding: 0.2rem 0;
+	font-size: 0.3rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #6A0F14;
+	border: 0.02rem solid #6A0F14;
+
+}
+/*品牌建设*/
+.ppjs img{
+	display: block;
+	width: 4.9rem;
+	height: 4.56rem;
+	margin:0.5rem auto;
+}
+.ppjs li{
+	width: 2.96rem;
+	height: 0.6rem;
+	margin: 0.2rem 0;
+	text-align: center;
+	line-height: 0.6rem;
+	border: 0.02rem solid #B3363A;
+	border-radius: 0.3rem;
+}
+/*经营理念*/
+.jyln .content{
+	height: 4.75rem;
+	background: url(../img/jyln.jpg) ;
+	background-size: 6.4rem;
+}
+
+/*特色服务*/
+.tsfw ul{
+	padding: 0.2rem;
+}
+.tsfw li{
+	padding:0.1rem 0.2rem;
+	border-bottom: 0.02rem solid #6A0F14;
+}
+.tsfw li:last-child{
+	border-bottom: none;
+}
+.tsfw h2{
+	padding-left: 0.3rem;
+	font-size: 0.24rem;
+	color: #6A0F14;
+	background: url(../img/sj-right.png) no-repeat left center;
+	background-size: 0.12rem 0.24rem;
+}
+.tsfw img{
+	padding: 0.2rem;
+	width: 1.6rem;
+	height: 1.2rem;
+}
+.tsfw tr td:last-child{
+	padding:0.2rem; 
+	font-size: 0.2rem;
+	text-indent: 2em;
+	color: #706F6F;
+	background-color: #EDEBEC;
+	border-radius: 0.1rem;
+}
+/*页脚*/
+.foot{
+	height: 2rem;
+	background-color: #DBB866;
+}
+.foot p{
+	padding: 0.3rem;
+	text-align: center;
+	color: #6A0F14;
+}
+.foot a{
+	color: #6A0F14;
+}

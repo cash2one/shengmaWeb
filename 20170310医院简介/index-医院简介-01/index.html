@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+ <meta charset="UTF-8">  
+ <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">  
+<script>   
+(function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                if(clientWidth>=640){
+                    docEl.style.fontSize = '100px';
+                }else{
+                    docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                }
+            };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script> 
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+<title>开封新区圣玛医院-医院简介</title> 
+</head>
+<body>
+    <!--head start-->
+    <div class="header com-section">
+        
+    </div>
+    <!--nav start-->
+    <div class="nav">
+        <ul>
+            <li><a href="">首页</a></li>
+            <li><a href="">简介</a></li>
+            <li><a href="">新闻</a></li>
+            <li><a href="">科室</a></li>
+            <li><a href="">医生</a></li>
+            <li><a href="">路线</a></li>
+        </ul>
+    </div>
+    <!--banner-->
+    <div class="banner com-section"> 
+    </div>
+    <!--医院简介-->
+    <div class="yyjj com-section">
+    	<h1>医院简介</h1>
+    	<p>开封新区圣玛医院是经上级主管部门批准的专业妇产医院，总投资1.2 亿元，医用面积1.66万平米，坐落于开封市西环路与向阳路交叉口，位置优越，环境优美，其温馨、舒适、优雅的内部设计可为广大妇婴提供卓越的人文关怀与服务体验。</p>
+    	<img class="img-1" src="img/yyjj-1.jpg" alt="开封新区圣玛医院-介绍">
+    	<p>秉承着“高端化妇婴医疗服务”的医院建设方针，圣玛本着“倡导绿色孕育，享受优质服务”的理念，不断强化品牌建设，引进高端人才，整合国内外优质妇婴医疗资源。目前，秉承国际JCI医院管理标准、导入FCWI全程化产科医疗服务模式、建立国际化3H医疗模式。</p>
+		<img class="img-2" src="img/yyjj-2.jpg" alt="开封新区圣玛医院-介绍">
+		<p>“以孕妇为中心”是圣玛妇产医院的核心经营理念，与传统妇产医疗服务侧重“分娩”服务不同的是，圣玛构建了一整套完善的服务体系，包括对孕妇进行孕前、孕中、待产、分娩、产后等全过程的医疗保健和健康管理，体现出“一站式” “立体化” “360度”全程管家式服务特色，将高品质医疗服务贯注于每一个细节，让顾客体验到细致周到、无微不至的关怀，享受无上尊崇。</p>	
+    </div>
+    <!--圣玛院训-->
+	<div class="smyx com-section">
+		<h1>圣玛院训</h1>
+		<ul>
+			<li>爱人如己</li>
+			<li>至善立信</li>
+			<li>创新技术</li>
+			<li>人本医疗</li>
+		</ul>
+	</div>
+
+    <!--服务理念-->
+	<div class="fwln com-section">
+		<h1>服务理念</h1>
+		<div class="content">
+			<p>圣玛全面导入FCWI(Full Care for Women and Infants)全程化妇产科医疗服务模式，将孕产妇视为尊贵的客人，针对她们在孕前、孕中、待产、分娩、产后等全过程的医疗保健、健康宣教、以及婴儿护理等全方位照护的国际妇婴保健医疗服务模式。</p>
+		</div>
+	</div>
+	<!--医院愿景-->
+	<div class="yyyj com-section">
+		<h1>医院愿景</h1>
+		<div class="content">
+			<p>开封女性孕产服务首选 <br/>母婴医疗服务领域翘楚</p>	
+		</div>
+	</div>
+	<!--品牌建设-->
+	<div class="ppjs com-section">
+		<h1>品牌建设</h1>
+		<img src="img/ppjs.jpg">
+	</div>
+	<!--经营理念-->
+	<div class="jyln com-section">
+		<h1>经营理念</h1>
+		<div class="content">
+		</div>
+	</div>
+	<!--特色项目-->
+	<div id="tsfw" class="tsfw com-section">
+		<h1>特色项目</h1>
+		<ul>
+			<li>
+				<h2>产前DNA检测</h2>
+				<table>
+					<tr>
+						<td><img src="img/tsfw-bg1.jpg"></td>
+						<td>一种新型染色体疾病筛查技术，其准确率高、无创伤，代表了当前产前检测和防止先天性缺陷儿出生技术的新发展方向。</td>
+					</tr>
+				</table>
+			</li>
+			<li>
+				<h2>圣玛无痛分娩</h2>
+				<table>
+					<tr>
+						<td><img src="img/tsfw-bg2.jpg"></td>
+						<td>技术成熟，省内最好麻醉师 ，国外进口最好麻药，让产妇不用开刀轻松生产。</td>
+					</tr>
+				</table>
+			</li>
+			<li>
+				<h2>高清四维彩超</h2>
+				<table>
+					<tr>
+						<td><img src="img/tsfw-bg3.jpg"></td>
+						<td>世界先进的美国GE-E8四维设备， 超高清成像效果，知名四维医生坐诊，大大提高省内胎儿畸形检出率，广受孕妈妈好评。</td>
+					</tr>
+				</table>
+			</li>
+			<li>
+				<h2>月子中心</h2>
+				<table>
+					<tr>
+						<td><img src="img/tsfw-bg4.jpg"></td>
+						<td>院内特设家庭式月子中心，"9对1"尊崇服务享受，24小时监控与专业母婴护理，让产后妈妈调整体型、为宝宝健康打下基础。</td>
+					</tr>
+				</table>
+			</li>
+			<li>
+				<h2>妈妈大学</h2>
+				<table>
+					<tr>
+						<td><img src="img/tsfw-bg5.jpg"></td>
+						<td>妈妈大学作为医院的重点公益服务，是为准爸妈们特别设置的一个科学孕育教育平台，医生为孕期女性讲授专业孕产知识。</td>
+					</tr>
+				</table>
+			</li>
+		</ul>
+	</div>
+
+    <!--页脚-->
+    <div class="foot">
+        <p>
+            免费咨询热线：0371-225 226 83<br/>来院路线：开封市西环路与向阳路交叉口<br/>（老橡胶厂对面）<br/>
+            <a href="">返回顶部</a>&nbsp;&nbsp;<a href="">在线咨询</a>
+        </p>
+    </div>
+</body>
+</html>
