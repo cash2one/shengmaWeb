@@ -1,0 +1,271 @@
+@charset "utf-8";
+body{
+	padding: 0px;
+	margin: 0px; 
+	font-family:"微软雅黑",Arial,Helvetica,sans-serif;
+	font-size:12px; padding-bottom:50px;
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+ol,ul {list-style:none;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+
+
+
+body,h1,h2,ul,li,p,a,img{margin: 0;padding: 0;}
+body{
+	font-family: "Microsoft Yahei";
+	font-size: 18px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.fc{
+	clear: both;
+}
+.com-section{
+	width: 640px;
+	margin: auto;
+	overflow: hidden;
+}
+.com-section>h1{
+	margin:10px 20px;
+	padding: 10px 0;
+	border: 2px solid #0071BD;
+	color: #0071BD;
+	text-align: center;
+}
+.com-img{
+	float:left; 
+	width:640px;
+	text-align:center; 
+	padding-bottom:10px; 
+	overflow:hidden;
+}
+.com-text{
+	float:left; 
+	width:590px; 
+	line-height:32px;
+	font-size:20px; 
+	padding:25px; 
+	text-indent:40px; 
+	overflow:hidden;}
+
+/*logo*/
+.logo{
+	height: 137px;
+	overflow: hidden;
+}
+.logo img{
+	width: 100%;
+	overflow: hidden;
+}
+/*nav*/
+.nav ul{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	height:40px;
+	background-color: #6A0F14;
+	overflow: hidden;
+}
+.nav ul li{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	height: 40px;
+	width: 107px;
+	border-left:3px solid #8A2328;
+	border-right:3px solid #3C0407;
+	text-align:center;
+	line-height: 40px;
+	color:  #DBB866;
+}
+.nav ul li:last-child{
+	width: 105px;
+}
+/*banner*/
+.banner{
+	position: relative;
+	width: 640px;
+	height: 287px;
+	margin: auto;
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.banner .wrap{
+	position: relative;
+	left: 55%;
+	overflow: hidden;
+}
+.banner h1{
+	padding: 30px 0 20px;
+	font-size: 24px;
+	color: #E62F5F;
+}
+.banner p{
+	font-size: 18px;
+	color: #09BAB4;
+}
+.banner .tel{
+	margin-top: 20px;
+}
+.banner .tel span{
+	font-size: 24px;
+}
+/*time*/
+.time .ask{
+	float:left;
+	width:640px;
+	text-align:center;
+	padding-bottom:25px;
+	overflow:hidden;}
+/*safty*/
+.safty .center{
+	font-size: 16px;
+	text-align: center;
+}
+.safty ul{
+	padding: 20px;
+}
+.safty ul li{
+	float: left;
+	width: 290px;
+	height: 180px;
+	margin: 5px;
+	text-align: center;
+	line-height: 180px;
+	font-size: 24px;
+	color: #fff;
+}
+.safty ul li:nth-child(1){
+	background-color: #637BDF;
+}
+.safty ul li:nth-child(2){
+	background-color: #38C5A2;
+}
+.safty ul li:nth-child(3){
+	background-color: #F87B4F;
+}
+.safty ul li:nth-child(4){
+	background-color: #E063C9;
+}
+/*私人定制*/
+.private-custom{
+	width: 640px;
+	margin: auto;
+}
+.private-custom h1{
+	margin:10px 20px;
+	padding: 10px 0;
+	border: 2px solid #0071BD;
+	color: #0071BD;
+	text-align: center;
+}
+.private-custom ul{
+	padding:0 20px;
+}
+.private-custom li{
+	margin: 10px 0;
+	padding:20px;
+	border: 2px dotted #0071BD;
+	border-radius: 10px;
+}
+.private-custom li h2{
+	padding: 10px 0;
+	color: #F97B02;
+}
+
+
+/*承诺*/
+.commitment .pic1{width:640px; text-align:center; padding-bottom:10px; float:left; overflow:hidden;}
+.commitment .pic1 img{width: 600px;}
+
+
+/*专家*/
+.expert ul{
+	padding: 0 20px;
+}
+.expert li{
+	padding: 10px 0 10px 50%;
+	height: 260px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.expert li:first-child{
+	background-image: url(../img/expert-1.jpg);
+}
+.expert li:last-child{
+	background-image: url(../img/expert-2.jpg);
+}
+.expert li p{
+	padding: 15px 15px 0 0;
+	font-size: 18px;
+}
+
+
+/*更多问题*/
+.more-question ul{
+	margin:20px;
+	padding-left: 10px;
+	border-left: 3px solid #8E0F82;
+}
+.more-question li{
+	height: 30px;
+	line-height: 30px;
+}
+.more-question a{
+	color: #000;
+}
+
+
+.foot{
+	padding: 10px 0;
+	background-color: #DBB866;
+}
+.foot p{
+	padding: 15px;
+	line-height: 28px;
+	text-align: center;
+	color: #6A0F14;
+}
+.foot a{
+	color: #6A0F14;
+}
+
+/*更多问题*/
+.more-question ul{
+	margin:20px;
+	padding-left: 10px;
+	border-left: 3px solid #8E0F82;
+}
+.more-question li{
+	height: 30px;
+	line-height: 30px;
+}
+.more-question a{
+	color: #000;
+}
+
+/*页脚*/
+.foot{
+	padding: 10px 0;
+	background-color: #DBB866;
+}
+.foot p{
+	padding: 15px;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+	color: #6A0F14;
+}
+.foot a{
+	color: #6A0F14;
+}
+
+
+
+
