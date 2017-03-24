@@ -1,0 +1,242 @@
+
+body{
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	visibility: hidden;
+}
+p{
+	text-indent: 2em;
+}
+.com-section{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	margin: auto;
+}
+.com-section>h1{
+	padding: 0.2rem;
+	font-size: 0.3rem;
+	text-align: center;
+	color: #fff;
+	background-color:#DAB866; 
+}
+.com-text{
+	padding: 0.2rem;
+	text-indent: 2em;
+	border-radius: 0.15rem;
+	color: #444;
+	background-color: #F4EDE7;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.fc{
+	clear: both;
+}
+/*私有样式*/
+.header{
+	height: 1.36rem;
+	background-image:url(../img/header-bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.nav ul{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	height: 0.5rem;
+	margin: auto;
+	background-color: #6A0F14;
+}
+.nav ul li{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-left:0.03rem solid #8A2328;
+	border-right:0.03rem solid #3C0407;
+	width: 1.6rem;
+	height: 0.5rem;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	text-align:center;
+
+}
+.nav ul li:last-child{
+	border-right: none;
+}
+.nav a{
+	color:  #DBB866;
+}
+
+/*banner*/
+.banner{
+	height: 2.4rem;
+	background: url(../img/banner.jpg) center no-repeat;
+	background-size: 6.4rem auto;
+}
+/*引言*/
+.yinyan p{
+	margin: 0.2rem;
+}
+.zhengzhuang .content>img{
+	display: block;
+	width: 4rem;
+	padding: 0.3rem 0;
+	margin: auto;
+}
+.zhengzhuang .content a{
+	display: block;
+	margin: 0 auto 0.3rem;
+	width: 3rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	color: #fff;
+	background-color: #FE6C00;
+	border-radius: 0.25rem;
+}
+.zhengzhuang .content a img{
+	width: 0.22rem;
+	vertical-align: middle;
+}
+
+/*危害*/
+.weihai .content li{
+	position: relative;
+	height: 2.06rem;
+	width: 1.52rem;
+	margin: 0.3rem 0.2rem;
+
+}
+.weihai .content li p{
+	position: relative;
+	top: 0.8rem;
+	left: 1.92rem;
+	width: 4.08rem;
+}
+.weihai .content ul li:first-child{
+	background: url(../img/weihai_1.png) no-repeat;
+	background-size: 1.52rem;
+}
+.weihai .content ul li:nth-child(2){
+	background: url(../img/weihai_2.png) no-repeat;
+	background-size: 1.52rem;
+}
+.weihai .content ul li:last-child{
+	background: url(../img/weihai_3.png) no-repeat;
+	background-size: 1.52rem;
+}
+/*jieshao*/
+.jieshao .content>p{
+	margin: 0.2rem;
+}
+
+.jieshao .content ul li{
+	padding: 0.2rem;
+}
+.jieshao .content ul li h2{
+	padding: 0.2rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	text-align: center;
+	color: #971319;
+	background-color: 
+}
+.jieshao .content ul li img{
+	margin:0 0.1rem;
+}
+.jieshao .content ul li:first-child img{
+	width: 1.31rem;
+}
+.jieshao .content ul li:last-child img{
+	width: 1.55rem;
+}
+/*专家*/
+.zhuanjia .img-3{
+	display: block;
+	width: 6.4rem;
+	height: 4.29rem;
+	margin: auto;
+}
+.zhuanjia .wrap{
+	padding:0 0.2rem;
+}
+.zhuanjia tr p{
+	padding: 0.2rem;
+	font-size: 0.2rem;
+	text-indent: 0;
+}
+.zhuanjia strong{
+	font-size: 0.24rem;
+	font-weight: bold;
+}
+.zhuanjia .img-1{
+	width: 2.81rem;
+	height: 2.42rem;
+}
+/*优势*/
+.youshi table{
+	width: 6.3rem;
+	margin: auto;
+}
+.youshi table td{
+	height: 2rem;
+	border: 0.2rem solid #fff;
+	vertical-align: middle;
+	color: #fff;
+}
+.youshi table td h2{
+	padding: 0.1rem;
+	font-size: 0.3rem;
+	text-align: center;
+}
+.youshi table td p{
+	padding: 0 0.2rem;
+	font-size: 0.2rem;
+}
+.youshi .bg-color-1{
+	background-color: #934327;
+}
+.youshi .bg-color-2{
+	background-color: #279376;
+}
+.youshi .bg-color-3{
+	background-color: #0071BD;
+}
+.youshi .bg-color-4{
+	background-color: #F8931F;
+}
+
+/*更多问题*/
+.wenti ul{
+	padding: 0.2rem;
+}
+.wenti li{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-bottom: 0.02rem dotted #ccc;
+}
+
+
+
+
+
+
+
+/*页脚*/
+.foot{
+	height: 2rem;
+	background-color: #DBB866;
+}
+.foot p{
+	padding: 0.3rem;
+	text-align: center;
+	color: #6A0F14;
+}
+.foot a{
+	color: #6A0F14;
+}
