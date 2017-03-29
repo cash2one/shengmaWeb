@@ -1,0 +1,228 @@
+
+body{
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	visibility: hidden;
+}
+p{
+	text-indent: 2em;
+}
+.com-section{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	margin: auto;
+}
+.com-section>h1{
+	padding: 0.2rem;
+	font-size: 0.3rem;
+	text-align: center;
+	color: #fff;
+	background-color:#DAB866; 
+}
+.com-text{
+	padding: 0.2rem;
+	text-indent: 2em;
+	border-radius: 0.15rem;
+	color: #444;
+	background-color: #F4EDE7;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.fc{
+	clear: both;
+}
+/*私有样式*/
+.header{
+	height: 1.36rem;
+	background-image:url(../img/header-bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.nav ul{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	height: 0.5rem;
+	margin: auto;
+	background-color: #6A0F14;
+}
+.nav ul li{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-left:0.03rem solid #8A2328;
+	border-right:0.03rem solid #3C0407;
+	width: 1.6rem;
+	height: 0.5rem;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	text-align:center;
+
+}
+.nav ul li:last-child{
+	border-right: none;
+}
+.nav a{
+	color:  #DBB866;
+}
+
+/*banner*/
+.banner{
+	position: relative;
+	width: 6.4rem;
+	height: 2.8rem;
+	background: url(../img/banner.jpg) center no-repeat;
+	background-size: 100%;
+}
+.banner .content{
+	position: absolute;
+	left: 0.3rem;
+	top: 2rem;
+}
+.banner .content a{
+	display: inline-block;
+	width: 1.5rem;
+	height: 0.4rem;
+	margin: 0.1rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #fff;
+	background-color: #e99e27;
+	border-radius: 0.25rem;
+}
+/*引言*/
+.yinyan p{
+	margin: 0.2rem;
+}
+/*人群*/
+.renqun .content{
+	padding: 0.2rem;
+}
+.renqun ul li{
+	margin: 0.2rem 0;
+	height: 2.83rem;
+	text-align: center;
+}
+.renqun ul li span{
+	display: inline-block;
+	width: 2rem;
+	margin: 0 0.1rem;
+	padding: 0.1rem 0.14rem;
+	text-align: center;
+	color: #E5B23E;
+	background: -webkit-linear-gradient(top,#fff,#FFEAF6);
+	background: -moz-linear-gradient(top,#fff,#FFEAF6);
+	background: -ms-linear-gradient(top,#fff,#FFEAF6);
+	background: -o-linear-gradient(top,#fff,#FFEAF6);
+	background: linear-gradient(top,#fff,#FFEAF6);
+}
+.renqun ul li:first-child{
+	background: url(../img/renqun-1.jpg) no-repeat center 0.5rem;
+	background-size: 4.76rem auto;
+}
+.renqun ul li:last-child{
+	background: url(../img/renqun-2.jpg) no-repeat center 0.5rem;
+	background-size: 4.76rem auto;
+}
+/*危害*/
+.weihai .content ul li{
+	min-height: 2.7rem;
+	margin: 0.2rem;
+}
+.weihai .content ul li img{
+	width: 2.11rem;
+	margin: 0.1rem;
+}
+.weihai .content ul li h1{
+	margin: 0.1rem;
+	text-align: center;
+	color: #F88051;
+}
+.weihai .content ul li p{
+	font-size: 0.2rem;
+	text-align: justify;
+}
+/*优势*/
+.youshi ul{
+	height: 9.3rem;
+	padding: 0.2rem;
+}
+.youshi ul li{
+	display: table-cell;
+	vertical-align: middle;
+	float: left;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	width: 2.8rem;
+	height: 2.9rem;
+	margin: 0.1rem;
+	border: 0.02rem solid #F88051;
+	border-radius: 0.2rem;
+	-webkit-box-shadow:0.1rem 0.1rem 0.05rem #888;
+	box-shadow: 0.1rem 0.1rem 0.05rem #888;
+}
+.youshi ul li h2{
+	margin: 0 0.5rem;
+	padding: 0.1rem 0;
+	text-align: center;
+	color: #F88051;
+	border-bottom: 0.02rem solid #F88051;
+}
+.youshi ul li p{
+	padding: 0.1rem;
+	text-align: justify;
+}
+/*专家*/
+.zhuanjia .img-3{
+	display: block;
+	width: 6.4rem;
+	height: 4.29rem;
+	margin: auto;
+}
+.zhuanjia .wrap{
+	padding:0 0.2rem;
+}
+.zhuanjia tr p{
+	padding: 0.2rem;
+	font-size: 0.2rem;
+	text-indent: 0;
+}
+.zhuanjia strong{
+	font-size: 0.24rem;
+	font-weight: bold;
+}
+.zhuanjia .img-1{
+	width: 2.81rem;
+	height: 2.42rem;
+}
+/*更多问题*/
+.wenti ul{
+	padding: 0.2rem;
+}
+.wenti li{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-bottom: 0.02rem dotted #ccc;
+}
+/*页脚*/
+.foot{
+	height: 2rem;
+	background-color: #DBB866;
+}
+.foot p{
+	padding: 0.3rem;
+	text-align: center;
+	color: #6A0F14;
+}
+.foot a{
+	color: #6A0F14;
+}
