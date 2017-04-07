@@ -1,0 +1,102 @@
+
+body{
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	visibility: hidden;
+	background-color: #FCF5F1;
+}
+.com-section{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	margin: auto;
+}
+.com-section .content{
+	margin: 0.2rem;
+}
+.com-section>img{
+	width: 4.93rem;
+}
+.com-text{
+	padding: 0.2rem;
+	text-indent: 2em;
+	border-radius: 0.15rem;
+	color: #444;
+	background-color: #F4EDE7;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.fc{
+	clear: both;
+}
+/*私有样式*/
+
+/*banner*/
+.banner{
+	position: relative;
+	width: 6.4rem;
+	height: 2.4rem;
+	background: url(../img/banner.jpg) center no-repeat;
+	background-size: 100%;
+}
+.youhui-1 .content{
+	height: 2.5rem;
+	padding: 0.2rem;
+	border: 0.02rem solid #d6a88d;
+	border-radius: 0.1rem;
+}
+.youhui-1 .content img{
+	display: block;
+	width: 2.45rem;
+	margin: 0.2rem auto;
+}
+.youhui-1 .content p{
+	padding-top: 0.3rem;
+	line-height: 0.5rem;
+}
+.youhui-1 .content strong{
+	color: #ea4c29;
+}
+.youhui-2 .content .pic img{
+	width: 4.19rem;
+}
+.youhui-2 .content .tab li{
+	width: 1.4rem;
+	height: 0.836rem;
+	padding-right: 0.3rem;
+	line-height: 0.836rem;
+	text-align: right;
+	color: #fff;
+	background: url(../img/youhui-2-tab-bg-1.jpg) center no-repeat;
+	background-size: 1.7rem ;
+}
+.youhui-2 .content .tab .active{
+	background: url(../img/youhui-2-tab-bg-2.jpg) center no-repeat;
+	background-size: 1.7rem ;
+}
+.youhui-2 .yuding li{
+	padding: 0.1rem;
+	margin: 0.1rem 0;
+	border: 0.02rem solid #d6a88d;
+	border-radius: 0.1rem;
+}
+.youhui-2 .yuding p:first-child{
+	background: url(../img/a_31.jpg) left center no-repeat;
+}
+/*页脚*/
+.foot{
+	height: 2rem;
+	background-color: #DBB866;
+}
+.foot p{
+	padding: 0.3rem;
+	text-align: center;
+	color: #6A0F14;
+}
+.foot a{
+	color: #6A0F14;
+}
