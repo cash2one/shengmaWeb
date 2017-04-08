@@ -61,10 +61,10 @@ body{
 .youhui-1 .content strong{
 	color: #ea4c29;
 }
-.youhui-2 .content .pic img{
+.youhui-2 .content>.pic img{
 	width: 4.19rem;
 }
-.youhui-2 .content .tab li{
+.youhui-2 .content>.tab li{
 	width: 1.4rem;
 	height: 0.836rem;
 	padding-right: 0.3rem;
@@ -74,18 +74,99 @@ body{
 	background: url(../img/youhui-2-tab-bg-1.jpg) center no-repeat;
 	background-size: 1.7rem ;
 }
-.youhui-2 .content .tab .active{
+.youhui-2 .content>.tab .active{
 	background: url(../img/youhui-2-tab-bg-2.jpg) center no-repeat;
 	background-size: 1.7rem ;
 }
-.youhui-2 .yuding li{
+.youhui-2 .fenmian li{
 	padding: 0.1rem;
-	margin: 0.1rem 0;
+	margin: 0.3rem 0;
 	border: 0.02rem solid #d6a88d;
 	border-radius: 0.1rem;
 }
-.youhui-2 .yuding p:first-child{
+.youhui-2 .fenmian p:first-child{
+	padding-left: 0.28rem;
+	font-weight: bold;
 	background: url(../img/a_31.jpg) left center no-repeat;
+	background-size: 0.23rem;
+}
+.youhui-2 .fenmian p:last-child{
+}
+.youhui-2 .fenmian p:last-child img{
+	display: block;
+	margin: 0.03rem 0.1rem 0.03rem 0 ;
+	float: left;
+	height: 0.26rem;
+}
+.youhui-2 .fenmian p:last-child strong{
+	font-weight: bold;
+	color: #ea4c29;
+}
+.youhui-2 .xiuyang div>img{
+	width: 3.73rem;
+}
+.youhui-2 .xiuyang>div{
+	margin: 0.2rem 0;
+}
+.youhui-2 .xiuyang div .pic{
+	position: relative;
+	width: 4.19rem;
+	margin: auto;
+}
+.youhui-2 .xiuyang div .pic img{
+	display: none;
+	width: 4.19rem;
+}
+.youhui-2 .xiuyang .pic .active img{
+	display: block;
+}
+.youhui-2 .xiuyang .pic .spot{
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	bottom: 0.2rem;
+	text-align: center;
+}
+.youhui-2 .xiuyang .pic .spot span{
+	display: inline-block;
+	width: 0.2rem;
+	height: 0.2rem;
+	margin: 0 0.05rem;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.youhui-2 .xiuyang .pic .spot .active{
+	background-color: #ea4c29;
+}
+.youhui-2 .xiuyang div a{
+	display: block;
+	margin-top: 0.2rem;
+	padding: 0.2rem 0.7rem 0.2rem 0;
+	text-align: center;
+	border: 0.02rem solid #d6a88d;
+	border-radius: 0.2rem;
+	background: url(../img/a_61.jpg) no-repeat 92% center;
+	background-size: 0.5rem;
+}
+.youhui-2 .xiuyang div:last-child>img{
+	margin-left: 2.27rem;
+}
+
+/*优惠三*/
+.youhui-3 .content p{
+	border: 0.02rem solid #d6a88d;
+	border-radius: 0.2rem;
+	padding: 0.2rem;
+	margin: 0.2rem 0;
+	text-align: justify;
+}
+.youhui-3 .content p:first-child img{
+	width: 2.5rem;
+	padding: 0.4rem 0 0 0.2rem;
+}
+.youhui-3 .content p:last-child strong{
+	font-weight: bold;
+	color: #ea4c29;
 }
 /*页脚*/
 .foot{
