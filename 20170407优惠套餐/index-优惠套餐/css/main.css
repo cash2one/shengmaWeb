@@ -39,7 +39,8 @@ body{
 .banner{
 	position: relative;
 	width: 6.4rem;
-	height: 2.4rem;
+	height: 3.12rem;
+	margin-bottom: 0.3rem;
 	background: url(../img/banner.jpg) center no-repeat;
 	background-size: 100%;
 }
