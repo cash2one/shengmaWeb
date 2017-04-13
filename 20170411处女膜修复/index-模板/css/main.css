@@ -1,0 +1,297 @@
+
+body{
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	visibility: hidden;
+}
+p{
+	text-indent: 2em;
+}
+.com-section{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	margin: auto;
+}
+.com-section>h1{
+	padding: 0.2rem;
+	font-size: 0.3rem;
+	text-align: center;
+	color: #fff;
+	background-color:#DAB866; 
+}
+.com-text{
+	padding: 0.2rem;
+	text-indent: 2em;
+	border-radius: 0.15rem;
+	color: #444;
+	background-color: #F4EDE7;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.fc{
+	clear: both;
+}
+/*私有样式*/
+.header{
+	height: 1.36rem;
+	background-image:url(../img/header-bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.nav ul{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	height: 0.5rem;
+	margin: auto;
+	background-color: #6A0F14;
+}
+.nav ul li{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-left:0.03rem solid #8A2328;
+	border-right:0.03rem solid #3C0407;
+	width: 1.6rem;
+	height: 0.5rem;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	text-align:center;
+
+}
+.nav ul li:last-child{
+	border-right: none;
+}
+.nav a{
+	color:  #DBB866;
+}
+
+/*banner*/
+.banner{
+	position: relative;
+	width: 6.4rem;
+	height: 2.4rem;
+	background: url(../img/banner.jpg) center no-repeat;
+	background-size: 100%;
+}
+/*引言*/
+.yinyan p{
+	margin: 0.2rem;
+}
+/*介绍*/
+.jieshao .guannian{
+	width: 4.7rem;
+	height: 4.7rem;
+	margin: auto;
+	background:-webkit-linear-gradient(left top,#FBF3EB,#D6A95F);
+	background:-moz-linear-gradient(left top,#FBF3EB,#D6A95F);
+	background:-ms-linear-gradient(left top,#FBF3EB,#D6A95F);
+	background:-o-linear-gradient(left top,#FBF3EB,#D6A95F);
+	background:linear-gradient(left top,#FBF3EB,#D6A95F);
+	border-radius: 50%;
+	color: #6a4000;
+}
+.jieshao .guannian h1{
+	padding: 0.8rem 0 0.2rem;
+	text-align: center;
+}
+.jieshao .guannian p{
+	width: 3.5rem;
+	margin: auto;
+	text-align: justify;
+}
+.jieshao .content>p{
+	margin: 0.2rem;
+}
+/*技术*/
+.jishu .content{
+	padding: 0.2rem;
+}
+.jishu img{
+	display: block;
+	width: 3.52rem;
+	margin: 0 auto 0.2rem;
+}
+/*优势*/
+.youshi .content{
+	padding: 0.2rem;
+}
+
+.youshi .content h1{
+	padding: 0.1rem 0 0.1rem 1.5rem;
+	color: #d2a353;
+}
+.youshi .content span{
+	display: inline-block;
+	padding: 0 0.2rem;
+	font-weight: bold;
+	background-color: #EEB34B;
+	color: #fff;
+	border-radius: 0.05rem;
+}
+/*人群*/
+.renqun .content{
+	height: 6.92rem;
+	margin: 0.2rem;
+	background: url(../img/renqun.jpg) left no-repeat;
+	background-size: 1.65rem 6.85rem;
+}
+.renqun .content ul{
+	margin-left: 1.7rem;
+	padding:0 0.2rem;
+	
+}
+.renqun .content li{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	height: 1.05rem;
+	margin-bottom:0.12rem;
+	padding: 0.2rem;
+	font-size: 0.2rem;
+	background-color: #F4EDE7;
+}
+.renqun .content p,.renqun .content i{
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	*display: inline;
+	*zoom: 1;
+}
+.renqun .content p{
+	text-align: justify;
+}
+.renqun .content i{
+	width: 0;
+	height: 100%;
+}
+/*专家*/
+.zhuanjia .content{
+	position: relative;
+	margin: 0.2rem 0;
+	
+}
+.zhuanjia .content ul{
+	position: relative;
+	height: 7.5rem;
+}
+.zhuanjia .content ul li {
+	position: absolute;
+	z-index: 1;
+	display: none;
+	width: 5.5rem;
+	height: 7.5rem;
+	border: 0.02rem solid #ccc;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.zhuanjia .content ul li:first-child{
+	z-index: 2;
+	display: block;
+}
+.zhuanjia .content ul .pic{
+	padding-top: 0.2rem;
+	background-color: #FFE9D1;
+}
+.zhuanjia .content ul .pic img{
+	display: block;
+	width: 2.2rem;
+	margin: auto;
+}
+.zhuanjia .content ul h2{
+	margin: 0.2rem 0;
+	text-align: center;
+}
+.zhuanjia .content ul h2 span{
+	display: inline-block;
+	margin: 0 0.2rem;
+	font-size: 0.4rem;
+	color: #6a4000;
+}
+.zhuanjia .content ul h2 strong{
+	font-weight: bold;
+}
+.zhuanjia .content ul p{
+	width: 4.3rem;
+	height: 2.72rem;	
+	margin: auto;
+	text-align: justify;
+}
+.zhuanjia .content .zixun{
+	text-align: center;
+}
+.zhuanjia .content ul a{
+	display: inline-block;
+	margin:0.4rem 0.2rem;
+	padding: 0.15rem 0.2rem;
+	background: -webkit-linear-gradient(top,#F3DDAC,#BB984E);
+	background: -moz-linear-gradient(top,#F3DDAC,#BB984E);
+	background: -ms-linear-gradient(top,#F3DDAC,#BB984E);
+	background: -o-linear-gradient(top,#F3DDAC,#BB984E);
+	background: linear-gradient(top,#F3DDAC,#BB984E);
+	color: #fff;
+	border-radius: 0.1rem;
+}
+.zhuanjia .content .tab{
+	position: absolute;
+	top: 0;
+	z-index: 3;
+	width: 100%;
+}
+.zhuanjia .content .tab span{
+	position: absolute;
+	right: 0;
+	display: block;
+}
+.zhuanjia .content .tab span img{
+	width: 0.73rem;
+}
+.zhuanjia .content .tab span:first-child{
+	top:1.385rem;
+	right: 0.35rem;
+}
+.zhuanjia .content .tab span:nth-child(2){
+	top: 2.385rem;
+	right: 0.1rem;
+}
+.zhuanjia .content .tab span:nth-child(3){
+	top: 3.385rem;
+}
+.zhuanjia .content .tab span:nth-child(4){
+	top: 4.385rem;
+	right: 0.1rem;
+}
+.zhuanjia .content .tab span:last-child{
+	top: 5.385rem;
+	right: 0.35rem;
+}
+/*更多问题*/
+.wenti ul{
+	padding: 0.2rem;
+}
+.wenti li{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-bottom: 0.02rem dotted #ccc;
+}
+/*页脚*/
+.foot{
+	height: 2rem;
+	background-color: #DBB866;
+}
+.foot p{
+	padding: 0.3rem;
+	text-align: center;
+	color: #6A0F14;
+}
+.foot a{
+	color: #6A0F14;
+}
