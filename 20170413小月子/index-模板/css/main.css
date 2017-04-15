@@ -101,12 +101,88 @@ p{
 	margin: 0.1rem;
 }
 /*对比*/
-.duibi td{
-	text-align: center;
-	vertical-align: middle;
+.duibi .content{
+	margin: 0.2rem;
+	border-radius: 0.2rem;
+	overflow: hidden;
 }
-.duibi table tr:first-child{
-	width: 0.4rem;
+.duibi table{
+	border-collapse: separate;
+}
+.duibi td{
+	padding: 0.1rem;
+	vertical-align: middle;
+	text-align: justify;
+	text-indent: 2em;
+	border: 0.02rem solid #fff;
+	color: #fff;
+	background-color: #4DC7D6;
+}
+.duibi table tr:first-child td{
+	height: 0.5rem;
+	width: 0.6rem;
+	text-align: center;
+	text-indent: 0em;
+}
+.duibi table tr:first-child td{
+	background-color: #00AFC2;
+}
+.duibi table tr:not(:first-child) td:first-child{
+	text-indent: 0em;
+	text-align: center;
+	background-color: #F5AF7B;
+}
+.duibi a{
+	display: block;
+	width: 4rem;
+	height: 0.6rem;
+	margin:0 auto 0.2rem;
+	line-height: 0.6rem;
+	text-align: center;
+	background-color: #F96E2F;
+	color: #fff;
+}
+/*细节*/
+.xijie .content{
+	padding: 0.2rem;
+}
+.xijie .content li{
+	padding: 0.1rem 0;
+}
+.xijie .content img{
+	display: block;
+	width: 3.65rem;
+	margin: auto;
+}
+.xijie .content h2{
+	font-weight: bold;
+	text-align: center;
+	padding: 0.1rem;
+	color: #F96E2F;
+}
+/*专家*/
+.zhuanjia .content{
+	padding: 0.2rem;
+}
+.zhuanjia .content table{
+	border-collapse: separate;
+	border-spacing: 0.1rem;
+}
+.zhuanjia .conetnt table tr{
+	width: 3rem;
+}
+.zhuanjia .content table img{
+	display: block;
+	width: 2.62rem;
+	margin: auto;
+}
+.zhuanjia h2{
+	padding: 0.1rem;
+	font-size: 0.28rem;
+	text-align: center;
+}
+.zhuanjia h2 strong{
+	font-weight: bold;
 }
 /*页脚*/
 .foot{
