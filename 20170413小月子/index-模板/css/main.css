@@ -132,16 +132,7 @@ p{
 	text-align: center;
 	background-color: #F5AF7B;
 }
-.duibi a{
-	display: block;
-	width: 4rem;
-	height: 0.6rem;
-	margin:0 auto 0.2rem;
-	line-height: 0.6rem;
-	text-align: center;
-	background-color: #F96E2F;
-	color: #fff;
-}
+
 /*细节*/
 .xijie .content{
 	padding: 0.2rem;
@@ -183,6 +174,22 @@ p{
 }
 .zhuanjia h2 strong{
 	font-weight: bold;
+}
+/*环境*/
+.huanjing .content{
+	padding-top: 0.1rem;
+}
+.huanjing img{
+	width: 6.4rem;
+}
+/*更多问题*/
+.wenti ul{
+	padding: 0.2rem;
+}
+.wenti li{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-bottom: 0.02rem dotted #ccc;
 }
 /*页脚*/
 .foot{
