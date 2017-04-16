@@ -5,5 +5,13 @@ $(document).ready(function(){
 		$('body').css('visibility','visible');
 	})();
 	
+	(function(){
+		oLi=$('#zhuanjia').find('ul').find('li');
+		oLi.click(function(event) {
+			/* Act on the event */
+			oLi.removeClass('active');
+			$(this).addClass('active');
+		});
+	})();
 	
 })

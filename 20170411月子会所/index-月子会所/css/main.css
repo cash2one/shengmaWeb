@@ -20,6 +20,7 @@ body{
 .com-text{
 	padding: 0.2rem;
 	text-indent: 2em;
+	text-align: justify;
 	border-radius: 0.15rem;
 	color: #444;
 	background-color: #F4EDE7;
@@ -81,9 +82,99 @@ body{
 .yinyan p{
 	margin: 0.2rem;
 }
+/*介绍;膳食；环境*/
+.jieshao content,.shanshi content,.huanjing content{
+	padding: 0.2rem;
+}
+.jieshao img,.shanshi img{
+	display: block;
+	width: 6rem;
+	margin:0 auto 0.2rem;
+}
+.huanjing img{
+	display: block;
+	width: 6rem;
+	margin:0.2rem auto 0;
+}
+/*专家*/
+.zhuanjia .content{
+	padding: 0.2rem;
+}
+.zhuanjia li{
+	padding-bottom: 0.1rem;
+	border-bottom: 0.02rem solid #ccc;
+}
+.zhuanjia ul .active p{
+	display: block;
+}
+.zhuanjia ul .active h2 span{
+	visibility: hidden;
+}
+.zhuanjia ul li h2{
+	height: 0.65rem;
+	margin: 0.1rem 0;
+	line-height: 0.65rem;
+	padding:0 0.5rem 0 1.2rem;
+	background: url(../img/zhuanjia.jpg) no-repeat;
+	background-position: left 0;
+	background-size: 0.89rem;
+}
+.zhuanjia ul li:nth-child(2) h2{
+	background-position: left -0.65rem;
+}
+.zhuanjia ul li:nth-child(3) h2{
+	background-position: left -1.3rem;
+}
+.zhuanjia ul li:nth-child(4) h2{
+	background-position: left -1.95rem;
+}
+.zhuanjia ul li:last-child h2{
+	background-position: left -2.6rem;
+}
+.zhuanjia h2 strong{
+	display: inline-block;
+	margin-right: 0.2rem;
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: #F96E2F;
+}
+.zhuanjia p{
+	display: none;
+}
+.zhuanjia p strong{
+	font-weight: bold;
+}
+/*体验*/
+.tiyan .content{
+	width: 6rem;
+	padding: 0.1rem 0;
+}
+.tiyan .content table{
+	border-collapse: separate;
 
-
-
+}
+.tiyan .content tr td{
+	padding: 0.1rem;
+	text-align: center;
+	font-size: 0.2rem;
+}
+.tiyan .content tr td img{
+	width: 3rem;
+}
+.tiyan .content strong{
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #F96E2F;
+}
+/*更多问题*/
+.wenti ul{
+	padding: 0.2rem;
+}
+.wenti li{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-bottom: 0.02rem dotted #ccc;
+}
 /*页脚*/
 .foot{
 	height: 2rem;
