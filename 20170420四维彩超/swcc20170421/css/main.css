@@ -1,0 +1,250 @@
+
+body{
+	font-size: 0.24rem;
+	line-height: 0.34rem;
+	visibility: hidden;
+	color: #595959;
+}
+.com-section{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	margin: auto;
+}
+.com-section>h1{
+	padding: 0.2rem;
+	font-size: 0.3rem;
+	text-align: center;
+	color: #fff;
+	background-color:#DAB866; 
+}
+.com-text{
+	padding: 0.2rem;
+	text-indent: 2em;
+	border-radius: 0.15rem;
+	color: #444;
+	background-color: #F4EDE7;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.fc{
+	clear: both;
+}
+/*私有样式*/
+.header{
+	height: 1.36rem;
+	background-image:url(../img/header-bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.nav ul{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	width: 6.4rem;
+	height: 0.5rem;
+	margin: auto;
+	background-color: #6A0F14;
+}
+.nav ul li{
+	float: left;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	border-left:0.03rem solid #8A2328;
+	border-right:0.03rem solid #3C0407;
+	width: 1.6rem;
+	height: 0.5rem;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	text-align:center;
+
+}
+.nav ul li:last-child{
+	border-right: none;
+}
+.nav a{
+	color:  #DBB866;
+}
+
+/*banner*/
+.banner{
+	position: relative;
+	width: 6.4rem;
+	height: 2.69rem;
+	background: url(../img/banner.jpg) center no-repeat;
+	background-size: 100%;
+}
+/*引言*/
+.yinyan p{
+	margin: 0.2rem;
+}
+/*GE*/
+.ge .content{
+	padding: 0.2rem;
+}
+.ge .content p{
+	text-align: justify;
+}
+.ge .content p img{
+	display: inline-block;
+	width: 0.94rem;
+	margin-right: 0.2rem;
+}
+.ge .content a{
+	display: block;
+	width: 4rem;
+	height: 0.8rem;
+	margin:0.2rem auto 0;
+	text-align: center;
+	line-height: 0.8rem;
+	border: 0.02rem solid #F8931F;
+}
+/*排查*/
+.paicha .content{
+	padding: 0.2rem;
+}
+.paicha .content img{
+	display: block;
+	margin:0.2rem auto 0;
+	width: 3rem;
+}
+/*对比*/
+.duibi .content{
+	padding: 0.2rem;
+}
+.duibi .content table td{
+	height: 1.1rem;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FCF8F3;
+}
+
+.duibi .content table tr td:first-child{
+	color: #AB7F4F;
+	width: 1.5rem;
+	background-color: #F8F1E8;
+}
+.duibi .content table tr:first-child td{
+	color: #CAA685;
+	background-color: #F8F1E8;
+}
+.duibi .content table tr:last-child td:first-child{
+	color: #fff;
+	background-color: #CBA785;
+}
+.duibi .content table tr:last-child td:last-child{
+	color: #fff;
+	background-color: #EBB273;
+}
+.duibi img{
+	display: block;
+	width: 3rem;
+	margin:0.2rem auto;
+}
+.duibi a{
+	display: block;
+	width: 4rem;
+	margin: auto;
+	padding: 0.2rem;
+	text-align: center;
+	background-color: #BD143F;
+	color: #fff;
+	border-radius: 0.2rem;
+}
+/*优势*/
+.youshi .content{
+	width: 4.5rem;
+	margin: 0.2rem auto;
+	height: 2.3rem;
+	background: url(../img/youshi.jpg) no-repeat left center;
+	background-size: 1.02rem auto;
+}
+.youshi .content ul{
+	margin-left: 1.42rem;
+}
+.youshi .content ul li{
+	height: 0.5rem;
+	margin: 0.08rem 0.08rem 0.08rem 0.58rem;
+	line-height: 0.5rem;
+	border:0.02rem solid #ccc;
+	border-left: none;
+}
+.youshi .content ul li span{
+	display: inline-block;
+	height: 0.5rem;
+	border: 0.02rem solid #F8931F;
+	margin: -0.02rem 0.2rem 0 -0.5rem;
+	padding: 0 0.2rem;
+	background-color: #F8931F;
+	border-radius: 0.25rem 0 0 0.25rem;
+	color: #fff;
+}
+/*时间*/
+.shijian .content{
+	padding:0 0.2rem;
+}
+.shijian .content>img{
+	display: block;
+	margin:0.2rem auto;
+	width: 3.01rem;
+}
+.shijian .content p img{
+	display: block;
+	width: 1.13rem;
+	margin-right: 0.2rem;
+}
+.shijian .content a{
+	display: block;
+	width:3rem;
+	margin:0.2rem auto;
+	padding: 0.2rem 0;
+	text-align: center;
+	background-color: #BD143F;
+	color: #fff;
+	border-radius: 0.25rem;
+}
+/*专家*/
+.zhuanjia .content{
+	padding: 0.2rem;
+}
+.zhuanjia img{
+	width: 2.32rem;
+	margin-right:0.2rem;
+}
+.zhuanjia h2{
+	padding-bottom:0.1rem;
+}
+.zhuanjia h2 strong{
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: #F4754A;
+}
+.zhuanjia .content p{
+	text-indent: 2em;
+}
+/*更多问题*/
+.wenti ul{
+	padding: 0.2rem;
+}
+.wenti li{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-bottom: 0.02rem dotted #ccc;
+}
+/*页脚*/
+.foot{
+	height: 2rem;
+	background-color: #DBB866;
+}
+.foot p{
+	padding: 0.3rem;
+	text-align: center;
+	color: #6A0F14;
+}
+.foot a{
+	color: #6A0F14;
+}
