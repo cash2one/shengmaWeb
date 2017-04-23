@@ -1,4 +1,4 @@
-
+﻿@charset "utf-8";
 body{
 	font-size: 0.24rem;
 	line-height: 0.34rem;
@@ -84,12 +84,8 @@ body{
 }
 
 /*banner*/
-.banner{
-	position: relative;
+.banner img{
 	width: 6.4rem;
-	height: 2.4rem;
-	background: url(../img/banner.jpg) center no-repeat;
-	background-size: 100%;
 }
 /*引言*/
 .yinyan p{
@@ -133,6 +129,97 @@ body{
 }
 .weihai a{
 	margin-top: 0.2rem;
+}
+/*私人定制*/
+
+.private-custom{
+	margin-bottom: 0.2rem;
+}
+.private-custom .wrap{
+	width: 6rem;
+	margin:0.2rem auto;
+	border: 0.02rem solid #DE944D;
+}
+
+.private-custom .menu{
+	height: 0.7rem;
+}
+.private-custom .menu li{
+	float: left;
+	width: 1.5rem;
+	height: 0.7rem;
+	text-align: center;
+	line-height: 0.7rem;
+	color: #fff;
+	background-color:#DE944D;
+}
+.private-custom .menu .native{
+	color: #DE944D;
+	background-color: #fff;
+}
+.private-custom .content{
+	min-height: 4.2rem;
+	width: 6rem;
+	margin: auto;
+	padding: 0rem;
+	background: url(../img/private.jpg)  center no-repeat;
+	background-size: cover;
+}
+.private-custom .content li{
+	display: none;
+	width: 5.55rem;
+	padding:0.2rem;
+	font-size: 0.2rem;
+	line-height: 0.26rem;
+}
+.private-custom .content strong{
+	font-weight: bold;
+}
+.private-custom .content li h2{
+	padding: 0.1rem 0;
+	color: #F97B02;
+}
+.private-custom .content .native{
+	display: block;
+}
+
+/*专家*/
+.zhuanjia .content{
+	padding: 0.2rem 0.2rem 0;
+}
+.zhuanjia .content ul li{
+	height: 2.68rem;
+}
+.zhuanjia img{
+	width: 2.32rem;
+	margin-right:0.2rem;
+}
+.zhuanjia h2{
+	padding-bottom:0.1rem;
+}
+.zhuanjia h2 strong{
+	font-size: 0.3rem;
+	font-weight: bold;
+	color: #F4754A;
+}
+.zhuanjia .content p{
+	text-indent: 2em;
+	text-align: justify;
+}
+/*环境*/
+.huanjing img{
+	display: block;
+	width: 6rem;
+	margin-top: 0.2rem;
+}
+/*更多问题*/
+.wenti ul{
+	padding: 0.2rem;
+}
+.wenti li{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-bottom: 0.02rem dotted #ccc;
 }
 /*页脚*/
 .foot{
