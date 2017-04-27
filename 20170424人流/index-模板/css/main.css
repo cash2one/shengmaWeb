@@ -23,6 +23,10 @@
 	color: #444;
 	background-color: #F4EDE7;
 }
+p{
+	text-indent: 2em;
+	text-align: justify;
+}
 .fl{
 	float: left;
 }
@@ -31,6 +35,17 @@
 }
 .fc{
 	clear: both;
+}
+/*商务通*/
+.com-swt{
+	display: block;
+	width: 3.5rem;
+	margin: auto;
+	padding: 0.2rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	background-color: #F96E2F;
+	color: #fff;
 }
 /*私有样式*/
 .header{
@@ -76,13 +91,52 @@
 	background: url(../img/banner.jpg) center no-repeat;
 	background-size: 100%;
 }
-/*引言*/
-.yinyan p{
+/*资质*/
+.zizhi p{
 	margin: 0.2rem;
 }
-
-
-
+.zizhi img{
+	display: block;
+	width: 5rem;
+	margin: auto;
+}
+.zizhi h2{
+	font-weight: bold;
+	margin: 0.2rem;
+	color: #F96E2F;
+	text-align: center;
+}
+.zizhi a{
+	margin-bottom: 0.2rem;
+}
+/*实力*/
+.shili .content{
+	padding: 0.2rem;
+}
+.shili ul li{
+	float: left;
+	width: 2.9rem;
+	height: 3.7rem;
+	margin-top: 0.2rem;
+}
+.shili ul li:nth-child(2n){
+	float: right;
+}
+.shili ul li img{
+	width: 2.9rem;
+}
+.shili ul li p{
+	margin: 0.1rem 0;
+}
+/*隐患*/
+.yinhuan .content{
+	padding: 0.2rem;
+}
+.yinhuan .content img{
+	display: block;
+	width: 5rem;
+	margin:0.2rem auto;
+}
 /*页脚*/
 .foot{
 	height: 2rem;
